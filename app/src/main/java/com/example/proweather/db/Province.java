@@ -6,35 +6,35 @@ import org.litepal.crud.DataSupport;
  * Created by Administrator on 2017/9/28.
  */
 
-public class Province extends DataSupport{
+public class Province extends DataSupport {
     private int id;
-    private String cityName;
-    private int cityCode;
-    private int provinceId;
-    public int getId(){
+    private String provinceName;
+    private int provinceCode;
+
+    public int getId() {
         return id;
     }
-    public void setId(int id){
-        this.id=id;
+
+    public void setId(int id) {
+        this.id = id;
     }
-    public String getCityName(){
-        return cityName;
+
+    public String getProvinceName() {
+        return provinceName;
     }
-    public void setCityName(){
-        this.cityName=cityName;
+
+    public void setProvinceName(String provinceName) {
+        this.provinceName = provinceName;
     }
-    public int getCityCode(){
-        return cityCode;
+
+    public int getProvinceCode() {
+        return provinceCode;
     }
-    public void setCityCode(){
-        this.cityCode=cityCode;
+
+    public void setProvinceCode(int provinceCode) {
+        this.provinceCode = provinceCode;
     }
-    public int getProvinceId(){
-        return provinceId;
-    }
-    public void setProvinceId(){
-        this.provinceId=provinceId;
-    }
+
 
 
 }
